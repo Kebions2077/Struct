@@ -22,7 +22,7 @@
                                 printf("---------------------------\n");
         }
         printf("------------Users----------\n");
-        for(y=1;y<2;y++){
+        for(y=0;y<2;y++){
             printf("--------------------------------\n");
             printf("User %i\n", y);
             printf("Name:%s\n", user[y].name);
